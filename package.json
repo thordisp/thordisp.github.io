@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "node-sass --source-map-embed --watch styles.scss styles.css"
+    "sass": "node-sass --source-map-embed --watch styles.scss styles.css",
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "dev": "npm-run-all --parallel sass browser-sync"
   },
   "author": "Thordis",
   "license": "ISC",
