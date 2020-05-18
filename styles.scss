@@ -5,9 +5,6 @@
     display: grid;
     grid-template-rows: 200px;
     grid-template-columns: auto 300px;
-    background: #00B4DB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     &-title {
       grid-column-start: 1;
@@ -17,12 +14,18 @@
       justify-content: center;
       align-items: center;
       color: ivory;
+      background: #0f0c29;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     &-image {
       display: flex;
       justify-content: center;
       align-items: center;
+      background: #0f0c29;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #0f0c29, #000);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #0f0c29, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
       img {
         width: 200px;
@@ -35,17 +38,27 @@
 
   .main {
     display: grid;
-    grid-template-rows: calc(100vh - 200px);
+    grid-template-rows: auto;
     grid-template-columns: auto 300px;
 
     .right {
       grid-column-start: 2;
       grid-column-end: 3;
+      background: #0f0c29;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #0f0c29, #000);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #0f0c29, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      color: ivory;
 
       .info {
         width: 100%;
 
         .contact {
+          padding: 20px;
+
+          h4 {
+            text-align: center;
+          }
 
           &-detail {
             display: flex;
@@ -53,7 +66,7 @@
             align-items: center;
 
             span {
-              color: grey;
+              color: darkgrey;
               margin: 5px;
             }
           }
