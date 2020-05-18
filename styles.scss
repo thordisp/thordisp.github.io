@@ -1,8 +1,36 @@
 .container {
-// Todo: Setja upp grid.
 
   .header {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: auto 300px;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    &-title {
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: ivory;
+    }
+
+    &-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+    }
   }
+
+  .main {}
 }
