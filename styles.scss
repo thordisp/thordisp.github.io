@@ -71,6 +71,49 @@
             }
           }
         }
+
+        .skills {
+          margin-left: 5px;
+          margin-right: 5px;
+          text-align: left; /* Right-align text */
+          color: white; /* White text color */
+
+          &-container {
+            width: 100%; /* Full width */
+            background-color: #ddd; /* Grey background */
+          }
+
+          .html {
+            width: 70%;
+            background-color: #9fa749;
+            text-align: right;
+          }
+          .css {
+            width: 70%;
+            background-color: #9fa749;
+            text-align: right;
+          }
+          .js {
+            width: 70%;
+            background-color: #9fa749;
+            text-align: center;
+          }
+          .java {
+            width: 60%;
+            background-color: #929a43;
+            text-align: center;
+          }
+          .react {
+            width: 60%;
+            background-color: #929a43;
+            text-align: center;
+          }
+          .php {
+            width: 40%;
+            background-color: #787e37;
+            text-align: center;
+          }
+        }
       }
     }
   }
