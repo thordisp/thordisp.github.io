@@ -51,6 +51,7 @@ html {
       img {
         width: 200px;
         height: 200px;
+        padding: 10px;
         border-radius: 50%;
       }
 
@@ -62,9 +63,16 @@ html {
     grid-template-rows: auto;
     grid-template-columns: auto 300px;
 
+    h3 {
+      color: #cfc796;
+      font-size: xx-large;
+      font-weight: initial;
+    }
+
     .left {
       display: grid;
       grid-template-rows: auto;
+      margin: 20px;
       padding: 20px;
 
     }
@@ -73,10 +81,6 @@ html {
       padding: 20px;
       grid-column-start: 2;
       grid-column-end: 3;
-      background: #485563;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to top, #212830, #29323c);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to top, #212830, #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      color: ivory;
 
       .info {
         width: 100%;
@@ -95,7 +99,7 @@ html {
             margin-top: 10px;
 
             span {
-              color: darkgrey;
+              color: #cfc796;
               margin: 5px;
             }
           }
@@ -137,12 +141,12 @@ html {
 
             &-java, &-react{
               width: 60%;
-              background-color: #c7be85;
+              background-color: #cfc796;
             }
 
             &-php {
               width: 40%;
-              background-color: #bfb473;
+              background-color: #cfc796;
             }
           }
         }
