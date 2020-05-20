@@ -165,6 +165,17 @@ html {
 
       .language {
         padding: 20px;
+
+        &-wrapper {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          margin: 10px;
+        }
+
+        img {
+          height: 20px;
+        }
       }
     }
   }
