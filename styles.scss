@@ -98,9 +98,13 @@ h1, h3 {
       grid-column-start: 2;
       grid-column-end: 3;
       grid-template-rows: auto;
-      margin: auto;
-      padding-left: 10%;
-      padding-right: 10%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px 10%;
+
+      strong {
+        color: #b7ab63;
+      }
 
       .add-space-below {
         margin-bottom: 20px;
@@ -109,6 +113,16 @@ h1, h3 {
       .about, .experience {
         padding-bottom: 20px;
         border-bottom: 2px solid #bfb474;
+
+        a {
+          color: #000;
+          text-decoration: none;
+
+          &:hover {
+            color: #bfb474;
+            transition-duration: 0.2s;
+          }
+        }
       }
     }
 
@@ -135,6 +149,10 @@ h1, h3 {
           span, svg {
             color: #bfb474;
             margin: 5px;
+          }
+
+          a, p {
+            padding-top: 3px;
           }
 
           a {
@@ -184,11 +202,11 @@ h1, h3 {
           }
 
           &-html, &-css, &-js {
-            width: 70%;
+            width: 85%;
           }
 
           &-java, &-react{
-            width: 60%;
+            width: 70%;
           }
 
           &-php {
@@ -222,4 +240,14 @@ h1, h3 {
       }
     }
   }
+}
+
+.code {
+  font-family: Menlo, Consolas, Monaco, monospace;
+
+  font-size: 85%;
+  line-height: 1;
+  background-color: #f6f8fa;
+  border-radius: 2px;
+  color: #6a737d;
 }
