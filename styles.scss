@@ -1,3 +1,7 @@
+@import "scss/fontawesome.scss";
+@import "scss/solid.scss";
+@import "scss/brands.scss";
+
 *, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
@@ -123,6 +127,23 @@ h1, h3 {
             transition-duration: 0.2s;
           }
         }
+
+        .code {
+          font-family: Menlo, Consolas, Monaco, monospace;
+          font-size: 85%;
+          line-height: 1;
+          background-color: #f0eedf;
+          border-radius: 2px;
+
+          a {
+            color: #29323c;
+
+            &:hover {
+              color: #bfb474;
+              transition-duration: 0.2s;
+            }
+          }
+        }
       }
     }
 
@@ -167,50 +188,82 @@ h1, h3 {
         }
       }
 
-      .skills-container {
+      .skills {
         margin-left: 5px;
         margin-right: 5px;
         padding: 20px;
         border-bottom: 2px solid #b7ab63;
         text-align: left;
-        color: #FFF;
+        color: #b7ab63;
 
-        .skills-bar {
-          width: 100%;
-          background-color: #f7f6ee;
-          -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
-          -moz-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
-          box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
-          border-radius: 15px;
+        &-info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 10px;
+
+          &-text {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 24px;
+          }
+
+          &-icons {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 10px;
+          }
         }
 
-        .skill {
-          display: flex;
-          align-items: center;
-          height: 30px;
-          margin-bottom: 20px;
-          padding-left: 15px;
-          padding-right: 5px;
-          border-radius: 15px;
-          background-color: #bfb474;
-          -webkit-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
-          -moz-box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
-          box-shadow: inset 0px 0px 5px 5px rgba(0,0,0,0.25);
+        .html, .css, .js, .java, .android, .react, .php, .vue {
+          @extend %fa-icon;
+          @extend .fab;
+          color: #d8d1aa;
+          font-size: 50px;
+        }
 
-          span {
-            padding-top: 3px;
+
+        .html {
+          &:before {
+            content: fa-content($fa-var-html5);
           }
+        }
 
-          &-html, &-css, &-js {
-            width: 85%;
+        .css {
+          &:before {
+            content: fa-content($fa-var-css3-alt);
           }
+        }
 
-          &-java, &-react{
-            width: 70%;
+        .js {
+          &:before {
+            content: fa-content($fa-var-js-square);
           }
-
-          &-php {
-            width: 40%;
+        }
+        .java {
+          &:before {
+            content: fa-content($fa-var-java);
+          }
+        }
+        .android {
+          &:before {
+            content: fa-content($fa-var-android);
+          }
+        }
+        .react {
+          &:before {
+            content: fa-content($fa-var-react);
+          }
+        }
+        .php {
+          &:before {
+            content: fa-content($fa-var-php);
+          }
+        }
+        .vue {
+          &:before {
+            content: fa-content($fa-var-vuejs);
           }
         }
       }
@@ -240,14 +293,4 @@ h1, h3 {
       }
     }
   }
-}
-
-.code {
-  font-family: Menlo, Consolas, Monaco, monospace;
-
-  font-size: 85%;
-  line-height: 1;
-  background-color: #f6f8fa;
-  border-radius: 2px;
-  color: #6a737d;
 }
