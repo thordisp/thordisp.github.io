@@ -252,7 +252,7 @@ h1, h3, h4 {
           }
         }
 
-        .html, .css, .js, .java, .android, .react, .php, .vue {
+        .html, .css, .js, .java, .android, .react, .node, .python, .vue {
           @extend %fa-icon;
           @extend .fab;
           color: #d8d1aa;
@@ -292,9 +292,14 @@ h1, h3, h4 {
             content: fa-content($fa-var-react);
           }
         }
-        .php {
+        .node {
           &:before {
-            content: fa-content($fa-var-php);
+            content: fa-content($fa-var-node)
+          }
+        }
+        .python {
+          &:before {
+            content: fa-content($fa-var-python);
           }
         }
         .vue {
