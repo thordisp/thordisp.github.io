@@ -128,7 +128,13 @@ h1, h3, h4 {
         margin-bottom: 20px;
       }
 
-      .about, .experience, .education {
+      .education {
+        .bold {
+          font-weight: bold;
+        }
+      }
+
+      .about, .experience {
         padding-bottom: 20px;
         border-bottom: 2px solid #bfb474;
 
