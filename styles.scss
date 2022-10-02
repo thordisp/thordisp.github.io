@@ -120,6 +120,10 @@ h1, h3, h4 {
       margin-bottom: 20px;
       padding: 20px 10%;
 
+      .justify {
+        text-align: justify;
+      }
+
       strong {
         color: #b7ab63;
       }
@@ -284,6 +288,11 @@ h1, h3, h4 {
           font-size: 50px;
         }
 
+        .kotlin, .java, .spring, .google-cloud, .docker, .php, .terraform {
+          filter: invert(98%) sepia(5%) saturate(1787%) hue-rotate(348deg) brightness(88%) contrast(91%);
+          width: 50px;
+          height: 50px;
+        }
 
         .html {
           &:before {
