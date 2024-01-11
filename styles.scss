@@ -281,49 +281,22 @@ h1, h3, h4 {
           }
         }
 
-        .html, .css, .js, .java, .android, .react, .node, .python, .vue {
+        .aws, .node, .python {
           @extend %fa-icon;
           @extend .fab;
           color: #d8d1aa;
           font-size: 50px;
         }
 
-        .kotlin, .java, .spring, .google-cloud, .docker, .php, .terraform {
+        .kotlin, .java, .google-cloud, .docker, .php, .terraform, .dotnet {
           filter: invert(98%) sepia(5%) saturate(1787%) hue-rotate(348deg) brightness(88%) contrast(91%);
           width: 50px;
           height: 50px;
         }
 
-        .html {
-          &:before {
-            content: fa-content($fa-var-html5);
-          }
-        }
-
-        .css {
-          &:before {
-            content: fa-content($fa-var-css3-alt);
-          }
-        }
-
-        .js {
-          &:before {
-            content: fa-content($fa-var-js-square);
-          }
-        }
         .java {
           &:before {
             content: fa-content($fa-var-java);
-          }
-        }
-        .android {
-          &:before {
-            content: fa-content($fa-var-android);
-          }
-        }
-        .react {
-          &:before {
-            content: fa-content($fa-var-react);
           }
         }
         .node {
@@ -336,9 +309,9 @@ h1, h3, h4 {
             content: fa-content($fa-var-python);
           }
         }
-        .vue {
+        .aws {
           &:before {
-            content: fa-content($fa-var-vuejs);
+            content: fa-content($fa-var-aws);
           }
         }
       }
