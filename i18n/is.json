@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "lang": "is",
+    "title": "Þórdís Pétursdóttir — Ferilskrá",
+    "description": "Tölvunarfræðingur með sérfræðiþekkingu í bakendaþróun, skýjainnviðum og gervigreind."
+  },
+  "nav": {
+    "about": "Um Mig",
+    "experience": "Störf",
+    "education": "Nám",
+    "skills": "Tækni",
+    "projects": "Verkefni",
+    "contact": "Hafa Samband",
+    "downloadPdf": "Hlaða niður PDF",
+    "switchLang": "EN",
+    "darkMode": "Skipta um þema"
+  },
+  "hero": {
+    "name": "Þórdís Pétursdóttir",
+    "title": "Bakenda Forritari"
+  },
+  "about": {
+    "heading": "Um Mig",
+    "body": "Bakenda forritari með yfir fimm ára reynslu af þróun á skalanlegum lausnum og skýjainnviðum. Sérhæfing mín liggur í bakendaþróun með Python, Java, Kotlin og C#, ásamt uppbyggingu og umsjón skýjalausna í Azure, AWS og GCP með Terraform. Ég hef þróað microservices-arkitektúr, leitt tæknilegar ákvarðanir í hlutverki tech lead og unnið að AI-knúnum SaaS lausnum. Ég vinn jafn vel sjálfstætt og í teymi, legg áherslu á vandvirka hugbúnaðarhönnun og hef reynslu af Agile aðferðafræðinni."
+  },
+  "experience": {
+    "heading": "Fyrri Störf",
+    "jobs": [
+      {
+        "date": "Maí 2024 — Nú",
+        "title": "Bakenda Forritari",
+        "company": "Plaio",
+        "description": "Bakenda þróun fyrir AI-knúna SaaS lausn fyrir lyfjaiðnaðinn. Tæknileg uppsetning: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL og Terraform."
+      },
+      {
+        "date": "Feb 2023 — Maí 2024",
+        "title": "Bakenda Forritari",
+        "company": "Controlant",
+        "description": "Þróun og viðhald á bakenda lausnum (microservices) fyrir veflausn Controlant. Umsjón og viðhald á þjónustum sem hýstar eru í AWS."
+      },
+      {
+        "date": "Ágú 2021 — Jan 2023",
+        "title": "Bakenda Forritari — Tech Lead",
+        "company": "Stokkur Software",
+        "description": "Þróun og viðhald á nýjum og gömlum bakenda lausnum skrifuðum í Java, Kotlin og PHP. Umsjón með hönnun, uppsetningu og viðhaldi á skýjalausnum í GCP og Linux umhverfum."
+      },
+      {
+        "date": "Jún 2020 — Júl 2021",
+        "title": "Ráðgjafi og Forritari",
+        "company": "Intellecta",
+        "description": "Ráðgjöf og forritun með áherslu á sjálfvirknivæðingu ferla og vefforritun."
+      },
+      {
+        "date": "Ágú 2019 — Ágú 2020",
+        "title": "Varafulltrúi",
+        "company": "Ada — Hagsmunafélag Kvenna í Upplýsingatækni við Háskóla Íslands",
+        "description": "Hannaði, sá um uppsetningu og hafði umsjón með vef félagsins. Sinnti ýmsum félagsstörfum þar sem lögð er áhersla á að styðja við konur í UT."
+      },
+      {
+        "date": "Jan 2018 — Feb 2019",
+        "title": "Sjúkraþjálfari",
+        "company": "Vigdísarholt",
+        "description": "Tók að mér íbúa Sunnuhlíðar í endurhæfingu. Tók einnig við skjólstæðingum á göngudeild og í hvíldarinnlögn."
+      },
+      {
+        "date": "Okt 2014 — Nóv 2017",
+        "title": "Sjúkraþjálfari",
+        "company": "Søborg Fysioterapi, Danmörk",
+        "description": "Starfaði á einkastofu sem verktaki. Vann þar við almenna meðferð, hópatíma og heimaþjálfun."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Nám",
+    "items": [
+      {
+        "degree": "Baccalaureus",
+        "field": "Tölvunarfræði",
+        "institution": "Háskóli Íslands",
+        "years": "2017 — 2020"
+      },
+      {
+        "degree": "Baccalaureus",
+        "field": "Sjúkraþjálfun",
+        "institution": "UCC Nordsjælland, Danmörk",
+        "years": "2011 — 2014"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Tækni Þekking",
+    "categories": [
+      {
+        "name": "Forritunarmál",
+        "items": [
+          { "name": "Python", "level": 5 },
+          { "name": "Kotlin", "level": 4 },
+          { "name": "Java", "level": 4 },
+          { "name": ".NET / C#", "level": 4 },
+          { "name": "Node.js", "level": 3 },
+          { "name": "PHP", "level": 3 }
+        ]
+      },
+      {
+        "name": "Skýjalausnir og Innviðir",
+        "items": [
+          { "name": "Azure", "level": 4 },
+          { "name": "AWS", "level": 4 },
+          { "name": "Google Cloud Platform", "level": 4 },
+          { "name": "Terraform", "level": 4 },
+          { "name": "Docker", "level": 4 }
+        ]
+      },
+      {
+        "name": "Frameworks og Verkfæri",
+        "items": [
+          { "name": "FastAPI", "level": 4 },
+          { "name": "Spring Boot", "level": 4 },
+          { "name": "SQLAlchemy", "level": 4 },
+          { "name": "SQL / MSSQL", "level": 4 },
+          { "name": "PostgreSQL", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "spoken_languages": {
+    "heading": "Tungumál",
+    "items": [
+      { "language": "Íslenska", "level": "Móðurmál", "flag": "🇮🇸" },
+      { "language": "Enska",    "level": "Mjög góð",  "flag": "🇬🇧" },
+      { "language": "Danska",   "level": "Mjög góð",  "flag": "🇩🇰" },
+      { "language": "Norska",   "level": "Mjög góð",  "flag": "🇳🇴" }
+    ]
+  },
+  "projects": {
+    "heading": "Verkefni",
+    "items": [
+      {
+        "name": "Boði",
+        "description": "Vefforrit fyrir skipulagningu viðburða — einfalt og aðgengilegt. Byggt með Next.js og React.",
+        "tags": ["Next.js", "React", "Python", "FastAPI"],
+        "url": "https://bodi.events",
+        "github": ""
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Hafa Samband",
+    "email": "thordis@hey.com",
+    "linkedin": "https://www.linkedin.com/in/thordis-petursdottir/",
+    "github": "https://github.com/thordisp"
+  }
+}

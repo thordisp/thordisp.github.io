@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Þórdís Pétursdóttir — CV",
+    "description": "Software Engineer specialising in backend development, cloud infrastructure, and artificial intelligence."
+  },
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadPdf": "Download PDF",
+    "switchLang": "IS",
+    "darkMode": "Toggle dark mode"
+  },
+  "hero": {
+    "name": "Þórdís Pétursdóttir",
+    "title": "Backend Software Engineer"
+  },
+  "about": {
+    "heading": "About Me",
+    "body": "Backend Software Engineer with over five years of experience building scalable solutions and cloud infrastructure. My expertise lies in backend development with Python, Java, Kotlin, and C#, alongside designing and managing cloud solutions in Azure, AWS, and GCP using Terraform. I have built microservices architectures, led technical decisions as a tech lead, and worked on AI-powered SaaS products. I work equally well independently and in a team, with a focus on clean software design and experience with Agile methodologies."
+  },
+  "experience": {
+    "heading": "Experience",
+    "jobs": [
+      {
+        "date": "May 2024 — Present",
+        "title": "Backend Developer",
+        "company": "Plaio",
+        "description": "Backend development for an AI-powered SaaS platform for the pharmaceutical manufacturing industry. Tech stack: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL, and Terraform."
+      },
+      {
+        "date": "Feb 2023 — May 2024",
+        "title": "Backend Developer",
+        "company": "Controlant",
+        "description": "Development and maintenance of backend solutions (microservices) for Controlant's web platform. Management and maintenance of services hosted in AWS."
+      },
+      {
+        "date": "Aug 2021 — Jan 2023",
+        "title": "Backend Developer — Tech Lead",
+        "company": "Stokkur Software",
+        "description": "Develop and maintain backend solutions written in Java, Kotlin, and PHP. Design, build, and maintain cloud solutions in GCP and Linux environments."
+      },
+      {
+        "date": "Jun 2020 — Jul 2021",
+        "title": "Developer and Consultant",
+        "company": "Intellecta",
+        "description": "Developer and consultant with focus on process automation and web programming."
+      },
+      {
+        "date": "Aug 2019 — Aug 2020",
+        "title": "Representative",
+        "company": "Ada — Women's Interest Group in IT at University of Iceland",
+        "description": "Designed and managed the association's website. Performed various social work with emphasis on supporting women in tech."
+      },
+      {
+        "date": "Jan 2018 — Feb 2019",
+        "title": "Physical Therapist",
+        "company": "Vigdísarholt",
+        "description": "Responsible for the rehabilitation of residents of Sunnuhlíð. Also offered outpatient and respite care treatments."
+      },
+      {
+        "date": "Oct 2014 — Nov 2017",
+        "title": "Physical Therapist",
+        "company": "Søborg Fysioterapi, Denmark",
+        "description": "Worked at a private clinic as a contractor. Offered general treatment, group training, and home treatments."
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Science",
+        "field": "Computer Science",
+        "institution": "University of Iceland",
+        "years": "2017 — 2020"
+      },
+      {
+        "degree": "Bachelor of Science",
+        "field": "Physical Therapy",
+        "institution": "UCC Nordsjælland, Denmark",
+        "years": "2011 — 2014"
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Skills",
+    "categories": [
+      {
+        "name": "Languages",
+        "items": [
+          { "name": "Python", "level": 5 },
+          { "name": "Kotlin", "level": 5 },
+          { "name": "Java", "level": 5 },
+          { "name": ".NET / C#", "level": 4 },
+          { "name": "Node.js", "level": 3 },
+          { "name": "PHP", "level": 3 }
+        ]
+      },
+      {
+        "name": "Cloud & Infrastructure",
+        "items": [
+          { "name": "Azure", "level": 4 },
+          { "name": "AWS", "level": 4 },
+          { "name": "Google Cloud Platform", "level": 3 },
+          { "name": "Terraform", "level": 5 },
+          { "name": "Docker", "level": 4 }
+        ]
+      },
+      {
+        "name": "Frameworks & Tools",
+        "items": [
+          { "name": "FastAPI", "level": 4 },
+          { "name": "Spring Boot", "level": 4 },
+          { "name": "SQLAlchemy", "level": 4 },
+          { "name": "SQL / MSSQL", "level": 4 },
+          { "name": "PostgreSQL", "level": 4 }
+        ]
+      }
+    ]
+  },
+  "spoken_languages": {
+    "heading": "Languages",
+    "items": [
+      { "language": "Icelandic", "level": "Native", "flag": "🇮🇸" },
+      { "language": "English",   "level": "Fluent",  "flag": "🇬🇧" },
+      { "language": "Danish",    "level": "Fluent",  "flag": "🇩🇰" },
+      { "language": "Norwegian", "level": "Fluent",  "flag": "🇳🇴" }
+    ]
+  },
+  "projects": {
+    "heading": "Projects",
+    "items": [
+      {
+        "name": "Boði",
+        "description": "An event planning web app that makes organizing events simple and accessible. Built with Next.js and React.",
+        "tags": ["Next.js", "React", "Python", "FastAPI"],
+        "url": "https://bodi.events",
+        "github": ""
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "email": "thordis@hey.com",
+    "linkedin": "https://www.linkedin.com/in/thordis-petursdottir/",
+    "github": "https://github.com/thordisp"
+  }
+}
