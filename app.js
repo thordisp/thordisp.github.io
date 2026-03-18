@@ -122,15 +122,6 @@ function renderProjects() {
   `).join('');
 }
 
-function renderContact() {
-  const c = translations.contact;
-  document.getElementById('contact-links').innerHTML = `
-    <a class="contact-link" href="mailto:${c.email}">${c.email}</a>
-    <a class="contact-link" href="${c.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
-    <a class="contact-link" href="${c.github}" target="_blank" rel="noopener">GitHub</a>
-  `;
-}
-
 function applyTranslations() {
   renderStatic();
   renderExperience();
@@ -138,7 +129,6 @@ function applyTranslations() {
   renderSkills();
   renderSpokenLanguages();
   renderProjects();
-  renderContact();
 }
 
 // ------------------------------------------------------------------
@@ -190,44 +180,6 @@ function observeAnimatables() {
 }
 
 // ------------------------------------------------------------------
-// Sticky nav shadow
-// ------------------------------------------------------------------
-function initNavScroll() {
-  const nav = document.getElementById('nav');
-  window.addEventListener('scroll', () => {
-    nav.classList.toggle('nav--scrolled', window.scrollY > 20);
-  }, { passive: true });
-}
-
-// ------------------------------------------------------------------
-// Hamburger (mobile nav)
-// ------------------------------------------------------------------
-function initHamburger() {
-  const btn   = document.getElementById('hamburger');
-  const links = document.getElementById('navLinks');
-
-  btn.addEventListener('click', () => {
-    const open = links.classList.toggle('nav__links--open');
-    btn.setAttribute('aria-expanded', open);
-  });
-
-  links.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => {
-      links.classList.remove('nav__links--open');
-      btn.setAttribute('aria-expanded', 'false');
-    });
-  });
-
-  // Close when clicking outside
-  document.addEventListener('click', (e) => {
-    if (!e.target.closest('.nav__inner')) {
-      links.classList.remove('nav__links--open');
-      btn.setAttribute('aria-expanded', 'false');
-    }
-  });
-}
-
-// ------------------------------------------------------------------
 // PDF download
 // ------------------------------------------------------------------
 function initPdfDownload() {
@@ -241,8 +193,6 @@ function initPdfDownload() {
 // ------------------------------------------------------------------
 async function init() {
   initDarkMode();
-  initNavScroll();
-  initHamburger();
   initPdfDownload();
 
   translations = await loadTranslations(currentLang);
