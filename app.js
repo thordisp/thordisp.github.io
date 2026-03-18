@@ -195,10 +195,19 @@ async function init() {
   initDarkMode();
   initPdfDownload();
 
-  translations = await loadTranslations(currentLang);
-  applyTranslations();
+  // Observe static sections immediately so they're never stuck invisible
   observeAnimatables();
-  initLangToggle();
+
+  try {
+    translations = await loadTranslations(currentLang);
+    applyTranslations();
+    observeAnimatables(); // pick up dynamically rendered items
+    initLangToggle();
+  } catch (err) {
+    console.error('Failed to load translations:', err);
+    // Make all sections visible so the page doesn't appear blank
+    document.querySelectorAll('.animatable').forEach(el => el.classList.add('visible'));
+  }
 }
 
 init();
