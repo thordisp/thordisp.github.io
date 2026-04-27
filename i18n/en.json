@@ -17,11 +17,11 @@
   },
   "hero": {
     "name": "Þórdís Pétursdóttir",
-    "title": "Backend Software Engineer"
+    "title": "Software Engineer and Physical Therapist"
   },
   "about": {
     "heading": "About Me",
-    "body": "Backend Software Engineer with over five years of experience building scalable solutions and cloud infrastructure. My expertise lies in backend development with Python, Java, Kotlin, and C#, alongside designing and managing cloud solutions in Azure, AWS, and GCP using Terraform. I have built microservices architectures, led technical decisions as a tech lead, and worked on AI-powered SaaS products. I work equally well independently and in a team, with a focus on clean software design and experience with Agile methodologies."
+    "body": "Software Engineer with over five years of experience building scalable solutions and cloud infrastructure. My expertise lies in backend development with Python, Java, Kotlin, and C#, alongside designing and managing cloud solutions in Azure, AWS, and GCP using Terraform. I have built microservices architectures, led technical decisions as a tech lead, and worked on AI-powered SaaS products. I work equally well independently and in a team, with a focus on clean software design and experience with Agile methodologies."
   },
   "experience": {
     "heading": "Experience",

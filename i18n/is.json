@@ -17,11 +17,11 @@
   },
   "hero": {
     "name": "Þórdís Pétursdóttir",
-    "title": "Bakendaforritari"
+    "title": "Tölvunarfræðingur og Sjúkraþjálfari"
   },
   "about": {
     "heading": "Um mig",
-    "body": "Bakendaforritari með yfir fimm ára reynslu af þróun á skalanlegum lausnum og skýjainnviðum. Ég hef sérhæft mig í bakendaþróun með Python, Java, Kotlin og C#, ásamt uppbyggingu og umsjón skýjalausna í Azure, AWS og GCP með Terraform. Ég hef þróað microservices-arkitektúr, leitt tæknilegar ákvarðanir í hlutverki tech lead og unnið að AI-knúnum SaaS lausnum. Ég vinn jafn vel sjálfstætt og í teymi, legg áherslu á vandvirka hugbúnaðarhönnun og hef reynslu af Agile aðferðafræðinni."
+    "body": "Tölvunarfræðingur með yfir fimm ára reynslu af þróun á skalanlegum lausnum og skýjainnviðum. Ég hef sérhæft mig í bakendaþróun með Python, Java, Kotlin og C#, ásamt uppbyggingu og umsjón skýjalausna í Azure, AWS og GCP með Terraform. Ég hef þróað microservices-arkitektúr, leitt tæknilegar ákvarðanir í hlutverki tech lead og unnið að AI-knúnum SaaS lausnum. Ég vinn jafn vel sjálfstætt og í teymi, legg áherslu á vandvirka hugbúnaðarhönnun og hef reynslu af Agile aðferðafræðinni."
   },
   "experience": {
     "heading": "Fyrri störf",
