@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "About Me",
-    "body": "Software Engineer with over five years of experience building scalable solutions and cloud infrastructure. My expertise lies in backend development with Python, Java, Kotlin, and C#, alongside designing and managing cloud solutions in Azure, AWS, and GCP using Terraform. I have built microservices architectures, led technical decisions as a tech lead, and worked on AI-powered SaaS products. I work equally well independently and in a team, with a focus on clean software design and experience with Agile methodologies."
+    "body": "Software engineer with a background as a physiotherapist, bringing practical insight into how technology is used in day-to-day work.\n\nExperience in developing and implementing software solutions in collaboration with different stakeholders, with a focus on understanding needs and identifying suitable solutions.\n\nParticularly interested in simplifying complex systems and improving digital solutions to better support real workflows. I enjoy working on projects where informed decisions need to be made about which solutions to choose and how best to implement them."
   },
   "experience": {
     "heading": "Experience",
@@ -30,25 +30,25 @@
         "date": "May 2024 — Present",
         "title": "Backend Developer",
         "company": "Plaio",
-        "description": "Backend development for an AI-powered SaaS platform for the pharmaceutical manufacturing industry. Tech stack: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL, and Terraform."
+        "description": "Working on backend development for an AI-powered SaaS platform in the pharmaceutical manufacturing industry.\n\nInvolved in designing and building services with a focus on reliability, data quality, and scalability.\n\nTech stack includes Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL, and Terraform."
       },
       {
         "date": "Feb 2023 — May 2024",
         "title": "Backend Developer",
         "company": "Controlant",
-        "description": "Development and maintenance of backend solutions (microservices) for Controlant's web platform. Management and maintenance of services hosted in AWS."
+        "description": "Worked on development and maintenance of backend microservices for Controlant's web platform.\n\nResponsible for maintaining and improving services running in AWS, with focus on stability and performance.\n\nCollaborated with other teams to support system integrations and ensure reliable data flow."
       },
       {
         "date": "Aug 2021 — Jan 2023",
         "title": "Backend Developer — Tech Lead",
         "company": "Stokkur Software",
-        "description": "Develop and maintain backend solutions written in Java, Kotlin, and PHP. Design, build, and maintain cloud solutions in GCP and Linux environments."
+        "description": "Worked in a cross-functional team with clients such as Strætó, Lottó, and Löður.\n\nContributed to development and implementation of solutions with focus on usability, performance, and cost efficiency.\n\nCollaborated with stakeholders to define requirements and ensure solutions met both technical and business needs."
       },
       {
         "date": "Jun 2020 — Jul 2021",
-        "title": "Developer and Consultant",
+        "title": "Consultant and Developer",
         "company": "Intellecta",
-        "description": "Developer and consultant with focus on process automation and web programming."
+        "description": "Contributed to implementation of RPA solutions to automate manual processes.\n\nParticipated in workflow analysis and solution implementation to reduce errors and improve efficiency.\n\nGained experience in implementing technology in complex environments and collaborating with different stakeholders."
       },
       {
         "date": "Aug 2019 — Aug 2020",

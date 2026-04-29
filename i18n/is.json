@@ -21,7 +21,7 @@
   },
   "about": {
     "heading": "Um mig",
-    "body": "Tölvunarfræðingur með yfir fimm ára reynslu af þróun á skalanlegum lausnum og skýjainnviðum. Ég hef sérhæft mig í bakendaþróun með Python, Java, Kotlin og C#, ásamt uppbyggingu og umsjón skýjalausna í Azure, AWS og GCP með Terraform. Ég hef þróað microservices-arkitektúr, leitt tæknilegar ákvarðanir í hlutverki tech lead og unnið að AI-knúnum SaaS lausnum. Ég vinn jafn vel sjálfstætt og í teymi, legg áherslu á vandvirka hugbúnaðarhönnun og hef reynslu af Agile aðferðafræðinni."
+    "body": "Hugbúnaðarsérfræðingur með bakgrunn sem sjúkraþjálfari og því góða innsýn í hvernig tæknilausnir nýtast í daglegu starfi.\n\nHef unnið að þróun og innleiðingu hugbúnaðarlausna í samstarfi við ólíka hagaðila, þar sem áherslan hefur verið á að skilja þarfir og finna hentugar lausnir.\n\nHef sérstakan áhuga á að einfalda flókin kerfi og bæta stafrænar lausnir þannig að þær styðji betur við raunveruleg vinnuferli. Ég nýt mín best í verkefnum þar sem þarf að taka upplýstar ákvarðanir um hvaða lausnir eigi að velja og hvernig best sé að innleiða þær."
   },
   "experience": {
     "heading": "Fyrri störf",
@@ -30,25 +30,25 @@
         "date": "Maí 2024 — Nú",
         "title": "Bakendaforritari",
         "company": "Plaio",
-        "description": "Bakendaþróun fyrir AI-knúna SaaS lausn fyrir lyfjaiðnaðinn. Tæknileg uppsetning: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL og Terraform."
+        "description": "Þróun á AI-knúinni SaaS lausn fyrir lyfjaiðnaðinn.\n\nHef komið að hönnun og þróun á kerfinu með áherslu á áreiðanleika, gagnagæði og skalanleika.\n\nTæknileg uppsetning: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL og Terraform."
       },
       {
         "date": "Feb 2023 — Maí 2024",
         "title": "Bakendaforritari",
         "company": "Controlant",
-        "description": "Þróun og viðhald á bakendalausnum fyrir veflausn Controlant. Umsjón og viðhald á þjónustum sem hýstar eru í AWS."
+        "description": "Vann að þróun og viðhaldi á bakendaþjónustum fyrir veflausn Controlant.\n\nBar ábyrgð á rekstri og umbótum á þjónustum í AWS, með áherslu á stöðugleika og afköst.\n\nVann með öðrum teymum að samþættingum og tryggði áreiðanlegt gagnaflæði."
       },
       {
         "date": "Ágú 2021 — Jan 2023",
         "title": "Bakendaforritari — Tech Lead",
         "company": "Stokkur Software",
-        "description": "Þróun og viðhald á nýjum og eldri bakendalausnum skrifuðum í Java, Kotlin og PHP. Umsjón með hönnun, uppsetningu og viðhaldi á skýjalausnum í GCP og Linux umhverfum."
+        "description": "Starfaði í þverfaglegu teymi og vann náið með viðskiptavinum á borð við Strætó, Lottó og Löður.\n\nKom að því að móta og þróa lausnir þar sem þurfti að taka tillit til bæði notendaupplifunar, afkasta og kostnaðar.\n\nVann með ólíkum hagaðilum að því að skilgreina þarfir og finna lausnir sem virkuðu vel í framkvæmd."
       },
       {
         "date": "Jún 2020 — Júl 2021",
-        "title": "Ráðgjafi og Forritari",
+        "title": "Ráðgjafi og forritari",
         "company": "Intellecta",
-        "description": "Ráðgjöf og forritun með áherslu á sjálfvirknivæðingu ferla og vefforritun."
+        "description": "Tók þátt í innleiðingu RPA-lausna með það að markmiði að einfalda og sjálfvirknivæða handvirka ferla.\n\nKom að greiningu á vinnuferlum og útfærslu lausna sem drógu úr villuhættu og bættu nýtingu tíma.\n\nFékk góða innsýn í hvernig best er að innleiða tæknilausnir og vinna með ólíkum hagaðilum."
       },
       {
         "date": "Ágú 2019 — Ágú 2020",
