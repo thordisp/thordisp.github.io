@@ -35,9 +35,18 @@ function t(keyPath) {
 // ------------------------------------------------------------------
 // Render helpers
 // ------------------------------------------------------------------
+function toParas(text) {
+  return text.split('\n\n').map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`).join('');
+}
+
 function renderStatic() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    el.textContent = t(el.dataset.i18n);
+    const val = t(el.dataset.i18n);
+    if (typeof val === 'string' && val.includes('\n')) {
+      el.innerHTML = toParas(val);
+    } else {
+      el.textContent = val;
+    }
   });
   document.documentElement.lang = t('meta.lang');
   document.title               = t('meta.title');
@@ -53,7 +62,7 @@ function renderExperience() {
       <div class="timeline-item__content">
         <h3 class="timeline-item__title">${job.title}</h3>
         <p class="timeline-item__company">${job.company}</p>
-        <p class="timeline-item__desc">${job.description}</p>
+        <div class="timeline-item__desc">${toParas(job.description)}</div>
       </div>
     </div>
   `).join('');
@@ -110,7 +119,7 @@ function renderProjects() {
   document.getElementById('projects-list').innerHTML = items.map(project => `
     <article class="project-card animatable">
       <h3 class="project-card__name">${project.name}</h3>
-      <p class="project-card__desc">${project.description}</p>
+      <div class="project-card__desc">${toParas(project.description)}</div>
       <div class="project-card__tags">
         ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
       </div>
