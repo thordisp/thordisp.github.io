@@ -260,6 +260,11 @@ html.dark .btn-icon .icon-moon {
   max-width: 680px;
   line-height: 1.75;
 }
+.section__body p + p,
+.timeline-item__desc p + p,
+.project-card__desc p + p {
+  margin-top: 0.75em;
+}
 @media (max-width: 600px) {
   .section {
     padding: var(--section-pad-sm);
