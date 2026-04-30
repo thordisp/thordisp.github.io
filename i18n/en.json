@@ -30,7 +30,7 @@
         "date": "May 2024 — Present",
         "title": "Backend Developer",
         "company": "Plaio",
-        "description": "Working on backend development for an AI-powered SaaS platform in the pharmaceutical manufacturing industry.\n\nInvolved in designing and building services with a focus on reliability, data quality, and scalability.\n\nTech stack includes Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL, and Terraform."
+        "description": "Backend development for an AI-powered SaaS platform in the pharmaceutical industry, supporting demand forecasting, production planning, and inventory management.\n\nContributed to the design and development of API services in Python (FastAPI, SQLAlchemy/Alembic), with a focus on reliability, data quality, and scalability.\n\nWorked in a cloud-based environment using Azure, MSSQL, Docker, and Terraform, supporting data-driven workflows and system integrations. Also contributed to frontend development using Next.js where needed.\n\nContributed to implementing authentication and access control using PropelAuth to support secure and manageable user access."
       },
       {
         "date": "Feb 2023 — May 2024",
@@ -42,7 +42,7 @@
         "date": "Aug 2021 — Jan 2023",
         "title": "Backend Developer — Tech Lead",
         "company": "Stokkur Software",
-        "description": "Worked in a cross-functional team with clients such as Strætó, Lottó, and Löður.\n\nContributed to development and implementation of solutions with focus on usability, performance, and cost efficiency.\n\nCollaborated with stakeholders to define requirements and ensure solutions met both technical and business needs."
+        "description": "Worked in a cross-functional team with clients such as Strætó, Lottó, and Löður.\n\nContributed to development and implementation of solutions with focus on usability, performance, and cost efficiency.\n\nCollaborated with stakeholders to define requirements and ensure solutions met both technical requirements and user needs."
       },
       {
         "date": "Jun 2020 — Jul 2021",

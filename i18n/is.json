@@ -30,19 +30,19 @@
         "date": "Maí 2024 — Nú",
         "title": "Bakendaforritari",
         "company": "Plaio",
-        "description": "Þróun á AI-knúinni SaaS lausn fyrir lyfjaiðnaðinn.\n\nHef komið að hönnun og þróun á kerfinu með áherslu á áreiðanleika, gagnagæði og skalanleika.\n\nTæknileg uppsetning: Python (FastAPI, Pydantic, SQLAlchemy), Azure, MSSQL og Terraform."
+        "description": "Bakendaþróun á AI-knúinni SaaS lausn fyrir lyfjaiðnaðinn sem styður við eftirspurnarspá, framleiðsluáætlanir og birgðastýringu.\n\nHef komið að hönnun og þróun API-þjónustu í Python (FastAPI, SQLAlchemy/Alembic), með áherslu á áreiðanleika, gæði gagna og skalanleika.\n\nUnnið í skýjaumhverfi með Azure, MSSQL, Docker og Terraform, þar sem lausnir styðja við gagnadrifin vinnuferli og samþættingar milli kerfa. Hef einnig komið að þróun notendaviðmóta með Next.js þegar þörf er á.\n\nKom að uppsetningu á aðgangsstýringu með PropelAuth til að einfalda notendastýringu og tryggja öruggan aðgang að kerfinu."
       },
       {
         "date": "Feb 2023 — Maí 2024",
         "title": "Bakendaforritari",
         "company": "Controlant",
-        "description": "Vann að þróun og viðhaldi á bakendaþjónustum fyrir veflausn Controlant.\n\nBar ábyrgð á rekstri og umbótum á þjónustum í AWS, með áherslu á stöðugleika og afköst.\n\nVann með öðrum teymum að samþættingum og tryggði áreiðanlegt gagnaflæði."
+        "description": "Vann að þróun og viðhaldi á bakendaþjónustum fyrir veflausn Controlant með .NET og PostgreSQL.\n\nBar ábyrgð á rekstri og umbótum á þjónustum í AWS, með áherslu á stöðugleika, afköst og rekjanleika.\n\nVann með API, samþættingum og innviðum (Terraform, Docker) til að tryggja áreiðanlegt gagnaflæði milli kerfa."
       },
       {
         "date": "Ágú 2021 — Jan 2023",
         "title": "Bakendaforritari — Tech Lead",
         "company": "Stokkur Software",
-        "description": "Starfaði í þverfaglegu teymi og vann náið með viðskiptavinum á borð við Strætó, Lottó og Löður.\n\nKom að því að móta og þróa lausnir þar sem þurfti að taka tillit til bæði notendaupplifunar, afkasta og kostnaðar.\n\nVann með ólíkum hagaðilum að því að skilgreina þarfir og finna lausnir sem virkuðu vel í framkvæmd."
+        "description": "Starfaði í þverfaglegu teymi og vann með viðskiptavinum á borð við Strætó, Lottó og Löður.\n\nHannaði og þróaði bakendaþjónustur með Java og Kotlin (Spring Boot) í skýjaumhverfi Google Cloud með PostgreSQL.\n\nKom að mótun lausna þar sem þurfti að takka tillit til notendaupplifunar, afkasta og kostnaðar, og vann með hagaðilum að því að skila lausnum sem uppfylltu tæknilegar kröfur og mættu þörfum notenda."
       },
       {
         "date": "Jún 2020 — Júl 2021",
