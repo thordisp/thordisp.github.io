@@ -54,19 +54,22 @@
         "date": "Ágú 2019 — Ágú 2020",
         "title": "Varafulltrúi",
         "company": "Ada — Hagsmunafélag Kvenna í Upplýsingatækni við Háskóla Íslands",
-        "description": "Hannaði, sá um uppsetningu og hafði umsjón með vef félagsins. Sinnti ýmsum félagsstörfum þar sem lögð er áhersla á að styðja við konur í UT."
+        "description": "Hannaði, sá um uppsetningu og hafði umsjón með vef félagsins. Sinnti ýmsum félagsstörfum þar sem lögð er áhersla á að styðja við konur í UT.",
+        "printHide": true
       },
       {
         "date": "Jan 2018 — Feb 2019",
         "title": "Sjúkraþjálfari",
         "company": "Vigdísarholt",
-        "description": "Sinnti endurhæfingu íbúa Sunnuhlíðar.\n\nTók einnig við skjólstæðingum á göngudeild og í hvíldarinnlögn."
+        "description": "Sinnti endurhæfingu íbúa Sunnuhlíðar.\n\nTók einnig við skjólstæðingum á göngudeild og í hvíldarinnlögn.",
+        "printHide": true
       },
       {
         "date": "Okt 2014 — Nóv 2017",
         "title": "Sjúkraþjálfari",
         "company": "Søborg Fysioterapi, Danmörk",
-        "description": "Starfaði á einkarekinni sjúkraþjálfunarstofu í Danmörku.\n\nVann með skjólstæðingum með stoðkerfisvandamál, leiddi hópatíma fyrir fólk með bakvandamál og verki í hálsi og herðum, auk þess að sinna einstaklingum með MS."
+        "description": "Starfaði á einkarekinni sjúkraþjálfunarstofu í Danmörku.\n\nVann með skjólstæðingum með stoðkerfisvandamál, leiddi hópatíma fyrir fólk með bakvandamál og verki í hálsi og herðum, auk þess að sinna einstaklingum með MS.",
+        "printHide": true
       }
     ]
   },

@@ -540,7 +540,7 @@ html.dark .tag {
     box-shadow: none !important;
   }
   html {
-    font-size: 11pt;
+    font-size: 10pt;
     color: #000;
     background: #fff;
   }
@@ -552,7 +552,7 @@ html.dark .tag {
     display: none !important;
   }
   .hero {
-    padding: 24pt 0 16pt;
+    padding: 14pt 0 10pt;
     background: #fff !important;
     color: #000 !important;
     border-bottom: 2pt solid #bfb474;
@@ -560,33 +560,44 @@ html.dark .tag {
   }
   .hero__name {
     color: #1a1a1a !important;
-    font-size: 22pt;
+    font-size: 20pt;
   }
   .hero__title {
     color: #444 !important;
   }
   .hero__photo {
-    width: 80pt;
-    height: 80pt;
+    width: 70pt;
+    height: 70pt;
     border-color: #bfb474;
   }
   .section,
   .section--alt {
-    padding: 16pt 0 !important;
+    padding: 8pt 0 !important;
     background: #fff !important;
-    break-inside: avoid;
   }
   .section__heading {
     color: #bfb474 !important;
-    font-size: 13pt;
-    margin-bottom: 10pt;
-    padding-bottom: 4pt;
+    font-size: 11pt;
+    margin-bottom: 5pt;
+    padding-bottom: 3pt;
     border-bottom: 1pt solid #bfb474;
   }
   .timeline-item {
-    padding: 10pt 0;
+    padding: 5pt 0;
     border-bottom: 0.5pt solid #ddd;
     break-inside: avoid;
+  }
+  .timeline-item__desc {
+    line-height: 1.45;
+  }
+  .timeline-item__desc p + p {
+    margin-top: 0.3em;
+  }
+  .section__body {
+    line-height: 1.5;
+  }
+  .section__body p + p {
+    margin-top: 0.3em;
   }
   .timeline-item__date {
     color: #666;
@@ -594,9 +605,31 @@ html.dark .tag {
   .timeline-item__company {
     color: #bfb474 !important;
   }
+  .section-block {
+    break-inside: avoid;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6pt;
+  }
   .skill-category {
     border: 0.5pt solid #ddd !important;
+    padding: 8pt 10pt !important;
     break-inside: avoid;
+    margin-bottom: 0;
+  }
+  .skill-list {
+    gap: 5pt;
+  }
+  .lang-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6pt;
+    break-inside: avoid;
+  }
+  .lang-item {
+    padding: 6pt 8pt !important;
   }
   .dot {
     width: 7pt;
@@ -636,6 +669,9 @@ html.dark .tag {
     transform: none !important;
   }
   #projects {
+    display: none !important;
+  }
+  .print-hide {
     display: none !important;
   }
   a[href]::after {

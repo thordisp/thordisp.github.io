@@ -57,7 +57,7 @@ function renderStatic() {
 function renderExperience() {
   const jobs = t('experience.jobs');
   document.getElementById('experience-list').innerHTML = jobs.map(job => `
-    <div class="timeline-item animatable">
+    <div class="timeline-item animatable${job.printHide ? ' print-hide' : ''}">
       <div class="timeline-item__date">${job.date}</div>
       <div class="timeline-item__content">
         <h3 class="timeline-item__title">${job.title}</h3>
