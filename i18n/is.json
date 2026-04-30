@@ -30,7 +30,7 @@
         "date": "Maí 2024 — Nú",
         "title": "Bakendaforritari",
         "company": "Plaio",
-        "description": "Bakendaþróun á AI-knúinni SaaS lausn fyrir lyfjaiðnaðinn sem styður við eftirspurnarspá, framleiðsluáætlanir og birgðastýringu.\n\nHef komið að hönnun og þróun API-þjónustu í Python (FastAPI, SQLAlchemy/Alembic), með áherslu á áreiðanleika, gagnagæði og skalanleika.\n\nUnnið í skýjaumhverfi með Azure, MSSQL, Docker og Terraform, þar sem lausnir styðja við gagnadrifin vinnuferli og samþættingar milli kerfa. Hef einnig komið að þróun notendaviðmóta með Next.js þegar þörf er á.\n\nKom að uppsetningu á aðgangsstýringu með PropelAuth til að einfalda notendastýringu og tryggja öruggan aðgang að kerfinu."
+        "description": "Bakendaþróun á AI-knúinni SaaS lausn fyrir lyfjaiðnaðinn sem styður við eftirspurnarspá, framleiðsluáætlanir og birgðastýringu.\n\nHef komið að hönnun og þróun API þjónustu í Python (FastAPI, SQLAlchemy/Alembic), með áherslu á áreiðanleika, gagnagæði og skalanleika.\n\nUnnið í skýjaumhverfi með Azure, MSSQL, Docker og Terraform, þar sem lausnir styðja við gagnadrifin vinnuferli og samþættingar milli kerfa. Hef einnig komið að þróun notendaviðmóta með Next.js þegar þörf er á.\n\nKom að uppsetningu á aðgangsstýringu með PropelAuth til að einfalda notendastýringu og tryggja öruggan aðgang að kerfinu."
       },
       {
         "date": "Feb 2023 — Maí 2024",
