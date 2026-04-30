@@ -36,13 +36,13 @@
         "date": "Feb 2023 — May 2024",
         "title": "Backend Developer",
         "company": "Controlant",
-        "description": "Worked on development and maintenance of backend microservices for Controlant's web platform.\n\nResponsible for maintaining and improving services running in AWS, with focus on stability and performance.\n\nCollaborated with other teams to support system integrations and ensure reliable data flow."
+        "description": "Worked on development and maintenance of backend services for Controlant's web platform using .NET and PostgreSQL.\n\nResponsible for maintaining and improving services running in AWS, with a focus on stability, performance, and observability.\n\nWorked with APIs, integrations, and infrastructure (Terraform, Docker) to ensure reliable data flow across systems."
       },
       {
         "date": "Aug 2021 — Jan 2023",
         "title": "Backend Developer — Tech Lead",
         "company": "Stokkur Software",
-        "description": "Worked in a cross-functional team with clients such as Strætó, Lottó, and Löður.\n\nContributed to development and implementation of solutions with focus on usability, performance, and cost efficiency.\n\nCollaborated with stakeholders to define requirements and ensure solutions met both technical requirements and user needs."
+        "description": "Worked in a cross-functional team and collaborated with clients such as Strætó, Lottó, and Löður.\n\nDesigned and developed backend services using Java and Kotlin (Spring Boot) in a cloud environment on Google Cloud with PostgreSQL.\n\nContributed to shaping solutions by balancing usability, performance, and cost, and worked with stakeholders to deliver systems that met technical requirements and user needs."
       },
       {
         "date": "Jun 2020 — Jul 2021",
