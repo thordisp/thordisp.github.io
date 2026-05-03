@@ -30,7 +30,7 @@
         "date": "May 2024 — Present",
         "title": "Backend Developer",
         "company": "Plaio",
-        "description": "Backend development for an AI-powered SaaS platform in the pharmaceutical industry, supporting demand forecasting, production planning, and inventory management.\n\nContributed to the design and development of API services in Python (FastAPI, SQLAlchemy/Alembic), with a focus on reliability, data quality, and scalability.\n\nWorked in a cloud-based environment using Azure, MSSQL, Docker, and Terraform, supporting data-driven workflows and system integrations. Also contributed to frontend development using Next.js where needed.\n\nContributed to implementing authentication and access control using PropelAuth to support secure and manageable user access."
+        "description": "Backend development for an AI-powered SaaS platform in the pharmaceutical industry, supporting demand forecasting, production planning, and inventory management.\n\nContributed to the design and development of API services in Python (FastAPI, SQLAlchemy/Alembic), with a focus on reliability, data quality, and scalability.\n\nWorked in a cloud-based environment using Azure, MSSQL, Docker, and Terraform, supporting data-driven workflows and system integrations. Also contributed to frontend development using Next.js.\n\nContributed to implementing authentication and access control using PropelAuth to support secure and manageable user access."
       },
       {
         "date": "Feb 2023 — May 2024",
